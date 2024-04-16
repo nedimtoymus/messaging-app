@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Not Defteri Uygulaması</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Not Defteri</h1>
+      <form id="noteForm">
+        <input type="text" id="noteTitle" placeholder="Not Başlığı" required />
+        <textarea
+          id="noteContent"
+          placeholder="Not İçeriği"
+          required
+        ></textarea>
+        <button type="submit">Notu Kaydet</button>
+      </form>
+      <div id="noteList"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
